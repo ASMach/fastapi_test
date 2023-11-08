@@ -30,7 +30,7 @@ async def body_method(sample_post: SamplePost):
     "description": "Return an image."
 }})
 async def basic_image():
-    image_path = 'F:/FastAPITest/bb.png'
+    image_path = 'bb.png'
 
     try:
          img = Image.open(image_path)
